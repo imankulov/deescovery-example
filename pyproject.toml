@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deescovery-example"
+version = "0.1.0"
+description = "Sample Flask project for Deescovery"
+authors = ["Roman Imankulov <roman.imankulov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+deescovery = "^1.1.0"
+Flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
